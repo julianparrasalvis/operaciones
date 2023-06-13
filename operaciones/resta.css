@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500&family=Lobster&family=Roboto:ital@1&family=Tilt+Prism&family=Ubuntu:ital,wght@1,700&display=swap');
+
+body{
+   
+font-family: 'Lobster', cursive;
+
+    background: rgb(144,64,64);
+    background: radial-gradient(circle, rgba(144,64,64,1) 0%, rgba(0,0,0,1) 86%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .principal{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.boton{
+    margin-top: 20px;
+    border-radius: 80px;
+    width: 150px;
+    height: 30px;
+}
+.input{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 100px;
+}
+.label{
+    color: white;
+}
